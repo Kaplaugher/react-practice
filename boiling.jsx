@@ -68,8 +68,9 @@ class Calculator extends React.Component {
 
   function handleCelciusChange(props){
     this.setState({
+      value: 32,
       scale: 'c'
-      
+
     })
   }
 
